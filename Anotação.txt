@@ -1,7 +1,8 @@
 Livros:( JavaScript: O Guia Definitivo  /  JavaScript - Guia do Programador )
 
 
-Anotação:
+Anotação de Comandos:
 
-
-
+window.alert('JavaScript')
+window.confirm('Está gostando de JS')
+window.prompt('Qual seria seu nome ?')
