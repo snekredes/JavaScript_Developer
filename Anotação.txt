@@ -1,8 +1,37 @@
 Livros:( JavaScript: O Guia Definitivo  /  JavaScript - Guia do Programador )
 
 
+Variável:
+
+-> Podem começar com letra,$ ou _
+
+-> Não podem começar com números
+
+-> É possível  usar letras ou números
+
+-> É possível usar acentos e símbolos
+
+-> Não podem conter espaços
+
+-> Não podem ser palavras reservadas
+
+-> Maiúsculas e minúsculas fazem diferença
+  	
+	
+		Tipos Primitivos
+
+-> Number = 5, 18, -12, 0.5, -15.9, 3.14, 8.0   
+
+-> String = "Google" , 'JavaScript' , `Renato`
+
+-> boolean = true , false
+
+-> typeof = mostra o tipo da variável
+
+
 Anotação de Comandos:
 
 window.alert('JavaScript')
 window.confirm('Está gostando de JS')
 window.prompt('Qual seria seu nome ?')
+//comentário  ou /* comentário*/
