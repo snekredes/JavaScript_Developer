@@ -18,7 +18,7 @@ Variável:
 -> Maiúsculas e minúsculas fazem diferença
   	
 	
-		Tipos Primitivos
+ Tipos Primitivos:
 
 -> Number = 5, 18, -12, 0.5, -15.9, 3.14, 8.0   
 
