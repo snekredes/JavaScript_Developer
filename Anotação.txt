@@ -34,4 +34,9 @@ Anotação de Comandos:
 window.alert('JavaScript')
 window.confirm('Está gostando de JS')
 window.prompt('Qual seria seu nome ?')
-//comentário  ou /* comentário*/
+
+//comentário  = comentário apenas em uma linha
+
+ ou 
+
+/* comentário*/  = incluir vários comentários em linhas
