@@ -28,12 +28,18 @@ Variável:
 
 -> typeof = mostra o tipo da variável ou informação digitada
 
+-> Sinal de + tem a função de concatenação
+
 
 Anotação de Comandos:
 
 window.alert('JavaScript')
 window.confirm('Está gostando de JS')
 window.prompt('Qual seria seu nome ?')
+Number.parseInt(n) - Números inteiros
+Number.parseFloat(n) - Números fracionados
+String(n)
+n.toString()
 
 //comentário  = comentário apenas em uma linha
 
