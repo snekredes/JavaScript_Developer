@@ -30,6 +30,11 @@ Variável:
 
 -> Sinal de + tem a função de concatenação
 
+-> Sinal de ${} tem a função de concatenação mais rápida, seguido com `crase`
+
+" " , ' '  = Aspa dupla e simples são para string simples.
+
+` ` = Crase para template strings fazer interpolação do placehold
 
 Anotação de Comandos:
 
@@ -40,6 +45,9 @@ Number.parseInt(n) - Números inteiros
 Number.parseFloat(n) - Números fracionados
 String(n)
 n.toString()
+s.length = Informa o tamanho da string 
+s.toUpperCase() = Coloca para letra maiúsculas
+s.toLowerCase() = Coloca para letra minúsculas
 
 //comentário  = comentário apenas em uma linha
 
