@@ -36,6 +36,7 @@ Variável:
 
 ` ` = Crase para template strings fazer interpolação do placehold
 
+
 Anotação de Comandos:
 
 window.alert('JavaScript')
@@ -48,6 +49,9 @@ n.toString()
 s.length = Informa o tamanho da string 
 s.toUpperCase() = Coloca para letra maiúsculas
 s.toLowerCase() = Coloca para letra minúsculas
+n1.toFixed(2) = fixa adicionando uma casa décimal
+n1.toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL'}) = coloca o valor convertido 
+
 
 //comentário  = comentário apenas em uma linha
 
