@@ -37,6 +37,47 @@ Variável:
 ` ` = Crase para template strings fazer interpolação do placehold
 
 
+Operadores Aritméticos:
+
++  = Soma
+-  = Subtração
+*  = Multiplicação
+/  = Divisão
+%  = Divisão, mas o resultado seria o resto da divisão.
+** = Potência
+
+
+
+Ordem de Precedência:
+
+() = Primeiro
+** = Segundo
+* / % = Tanto faz, mas sempre começando da esquerda p/ direita
++ -  = por último
+
+
+
+Simplificando:
+
+var n=3
+
+n=n+4	n+=4
+n=n-5 	n-=5
+n=n*4 	n/=4
+n=n/2 	n*=2
+n=n**2 	n**=2
+n=n%5 	n%=5	
+
+
+Incremento:
+
+var x= 10
+x++ = 11  >> Pós Incremento
+x-- = 10  >> Pós Incremento
+++x = 11  >> Pré incremento 
+--x = 10  >> Pré incremento 
+	
+
 Anotação de Comandos:
 
 window.alert('JavaScript')
