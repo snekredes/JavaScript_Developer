@@ -78,6 +78,13 @@ Operadores Lógicos:
 || = Disjunção / OU
 
 
+Operadores Ternário:
+
+?       var média= 6.0
+	
+: 	média>=7.0 ? "Aprovado" : "Reprovado"
+	
+
 
 Ordem de Precedência:
 
