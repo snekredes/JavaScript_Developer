@@ -37,6 +37,15 @@ Variável:
 ` ` = Crase para template strings fazer interpolação do placehold
 
 
+Operadores: 
+
+Aritméticos
+Atribuição
+Relacionais
+Lógicos
+Ternários
+
+
 Operadores Aritméticos:
 
 +  = Soma
@@ -47,6 +56,28 @@ Operadores Aritméticos:
 ** = Potência
 
 
+Operadores Relacionais:
+
+>	5>2  =True
+<	7<4  =False
+>=	6>=6 =True
+<=	8<=4 =False
+== 	9==9 =True
+!=	3!=3 =False
+
+
+Operadores Identidade:
+
+===    5 === '5' = False
+
+
+Operadores Lógicos:
+
+!  = Negação
+&& = Conjunção / E
+|| = Disjunção / OU
+
+
 
 Ordem de Precedência:
 
@@ -54,6 +85,14 @@ Ordem de Precedência:
 ** = Segundo
 * / % = Tanto faz, mas sempre começando da esquerda p/ direita
 + -  = por último
+
+
+
+Ordem de Precedência:
+
+!  = Negação
+&& = Conjunção / E
+|| = Disjunção / OU
 
 
 
@@ -72,10 +111,14 @@ n=n%5 	n%=5
 Incremento:
 
 var x= 10
+
 x++ = 11  >> Pós Incremento
 x-- = 10  >> Pós Incremento
 ++x = 11  >> Pré incremento 
 --x = 10  >> Pré incremento 
+
+
+
 	
 
 Anotação de Comandos:
