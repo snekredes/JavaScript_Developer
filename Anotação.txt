@@ -142,6 +142,14 @@ s.toUpperCase() = Coloca para letra maiúsculas
 s.toLowerCase() = Coloca para letra minúsculas
 n1.toFixed(2) = fixa adicionando uma casa décimal
 n1.toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL'}) = coloca o valor convertido 
+getElementsByTagName() - Seleção por marca
+getElementById() - Seleção Por ID
+getElementsByName() - Seleção por Nome
+getElementsByClassName() - Seleção por Classe
+querySelector() - Seleção por Seletor
+querySelectorAll() - Seleção por Seletores
+
+
 
 
 //comentário  = comentário apenas em uma linha
