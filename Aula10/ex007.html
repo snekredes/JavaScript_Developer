@@ -44,9 +44,27 @@
             background-color: rgb(255, 255, 255);
             color: rgb(9, 28, 197);
         }
+
+        input#botao4{
+            font-size: 1.5em;
+            margin-left: 30px;
+            width: 170px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(9, 28, 197);
+        }
         input#botao:hover{
             background-color: rgb(94, 255, 0);
         }
+        input#botao2:hover{
+            background-color: rgb(94, 255, 0);
+        }
+        input#botao3:hover{
+            background-color: rgb(94, 255, 0);
+        }
+        input#botao4:hover{
+            background-color: rgb(94, 255, 0);
+        }
+
         div#res{
             font-size: 1.3em;
             font: arial 700;
@@ -68,6 +86,13 @@
             text-decoration: underline;
 
         }
+        div#res4{
+            font-size: 1.3em;
+            font: arial 700;
+            margin-top: 25px;
+            text-decoration: underline;
+
+        }
 
     </style>
 
@@ -80,6 +105,13 @@
     <input type="button" id="botao" value="Somar" onclick="somar()">
     <div id="res">Resultado</div>
 <br>
+
+    <h1>Subtraindo Valores</h1>
+    <input type="number" name="ssxssn1" id="ssxssn1"> -
+    <input type="number" name="ssxssn2" id="ssxssn2">
+    <input type="button" id="botao4" value="Subtrair" onclick="subtrair()">
+    <div id="res4">Resultado</div>
+<br>    
     <h1>Multiplicando Valores</h1>
     <input type="number" name="mxmn1" id="mxmn1"> x
     <input type="number" name="mxmn2" id="mxmn2">
@@ -87,11 +119,11 @@
     <div id="res2">Resultado</div>
 <br>  
 
-<h1>Dividindo Valores</h1>
-<input type="number" name="dxdn1" id="dxdn1"> x
-<input type="number" name="dxdn2" id="dxdn2">
-<input type="button" id="botao3" value="Dividir" onclick="dividir()">
-<div id="res3">Resultado</div>
+    <h1>Dividindo Valores</h1>
+    <input type="number" name="dxdn1" id="dxdn1"> ÷
+    <input type="number" name="dxdn2" id="dxdn2">
+    <input type="button" id="botao3" value="Dividir" onclick="dividir()">
+    <div id="res3">Resultado</div>
 
     <script>
         function somar(){ 
@@ -115,8 +147,7 @@
         res2.innerHTML = `A Multiplicação entre ${m1} e ${m2} é igual a <strong>${s}</strong> está na hora de pagar uma pizza para nós 1800. `
 
     }
-
-    
+   
     function dividir(){ 
         var td1 = window.document.getElementById('dxdn1')
         var td2 = window.document.querySelector('input#dxdn2')
@@ -125,6 +156,17 @@
         var d2 = Number(td2.value)
         var s = d1 / d2
         res3.innerHTML = `A Divisão entre ${d1} e ${d2} é igual a <strong>${s}</strong> está na hora de pagar uma pizza para nós 1800. `
+
+    }
+
+    function subtrair(){ 
+        var tss1 = window.document.getElementById('ssxssn1')
+        var tss2 = window.document.querySelector('input#ssxssn2')
+        var res = window.document.querySelector('div#res')
+        var ss1 = Number(tss1.value)
+        var ss2 = Number(tss2.value)
+        var s = ss1 - ss2
+        res4.innerHTML = `A Divisão entre ${ss1} e ${ss2} é igual a <strong>${s}</strong> está na hora de pagar uma pizza para nós 1800. `
 
     }
     </script>
