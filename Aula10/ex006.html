@@ -21,8 +21,10 @@
     <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> <!--aqui pode fazer dessa forma pelo HTML-->
         Interaja
     </div>
-    <script> //Aqui pode ser feito pelo JS
+    <script>
         var a = window.document.getElementById('area')
+
+         //Aqui pode ser feito pelo JS
         a.addEventListener('click' , clicar)
         a.addEventListener('mouseenter' , entrar)
         a.addEventListener('mouseout', sair)
