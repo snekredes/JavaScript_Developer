@@ -14,6 +14,10 @@
         h1{
             border: 6px solid rgb(255, 255, 255);
             width: 405px;
+            
+        }
+        #h2{
+            margin-bottom: 50px;
         }
         input{
             font: 900 1em  arial;
@@ -21,8 +25,22 @@
         }
         input#botao{
             font-size: 1.5em;
-            margin-left: 40px;
+            margin-left: 20px;
             width: 150px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(9, 28, 197);
+        }
+        input#botao2{
+            font-size: 1.5em;
+            margin-left: 10px;
+            width: 230px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(9, 28, 197);
+        }
+        input#botao3{
+            font-size: 1.5em;
+            margin-left: 30px;
+            width: 170px;
             background-color: rgb(255, 255, 255);
             color: rgb(9, 28, 197);
         }
@@ -36,18 +54,45 @@
             text-decoration: underline;
 
         }
+        div#res2{
+            font-size: 1.3em;
+            font: arial 700;
+            margin-top: 25px;
+            text-decoration: underline;
+
+        }
+        div#res3{
+            font-size: 1.3em;
+            font: arial 700;
+            margin-top: 25px;
+            text-decoration: underline;
+
+        }
 
     </style>
 
 </head>
 <body>
-    <h1>Somando Valores</h1>
+    <h1 >Somando Valores</h1>
      
     <input type="number" name="txtn1" id="txtn1"> +
     <input type="number" name="txtn2" id="txtn2">
     <input type="button" id="botao" value="Somar" onclick="somar()">
     <div id="res">Resultado</div>
-    
+<br>
+    <h1>Multiplicando Valores</h1>
+    <input type="number" name="mxmn1" id="mxmn1"> x
+    <input type="number" name="mxmn2" id="mxmn2">
+    <input type="button" id="botao2" value="Multiplicar" onclick="multiplicar()">
+    <div id="res2">Resultado</div>
+<br>  
+
+<h1>Dividindo Valores</h1>
+<input type="number" name="dxdn1" id="dxdn1"> x
+<input type="number" name="dxdn2" id="dxdn2">
+<input type="button" id="botao3" value="Dividir" onclick="dividir()">
+<div id="res3">Resultado</div>
+
     <script>
         function somar(){ 
         var tn1 = window.document.getElementById('txtn1')
@@ -57,6 +102,29 @@
         var n2 = Number(tn2.value)
         var s = n1 + n2
         res.innerHTML = `A Soma entre ${n1} e ${n2} é igual a <strong>${s}</strong> está na hora de pagar uma pizza para nós 1800. `
+
+    }
+
+    function multiplicar(){ 
+        var tm1 = window.document.getElementById('mxmn1')
+        var tm2 = window.document.querySelector('input#mxmn2')
+        var res = window.document.querySelector('div#res')
+        var m1 = Number(tm1.value)
+        var m2 = Number(tm2.value)
+        var s = m1 * m2
+        res2.innerHTML = `A Multiplicação entre ${m1} e ${m2} é igual a <strong>${s}</strong> está na hora de pagar uma pizza para nós 1800. `
+
+    }
+
+    
+    function dividir(){ 
+        var td1 = window.document.getElementById('dxdn1')
+        var td2 = window.document.querySelector('input#dxdn2')
+        var res = window.document.querySelector('div#res')
+        var d1 = Number(td1.value)
+        var d2 = Number(td2.value)
+        var s = d1 / d2
+        res3.innerHTML = `A Divisão entre ${d1} e ${d2} é igual a <strong>${s}</strong> está na hora de pagar uma pizza para nós 1800. `
 
     }
     </script>
