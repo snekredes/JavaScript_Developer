@@ -125,6 +125,11 @@ x-- = 10  >> Pós Incremento
 --x = 10  >> Pré incremento 
 
 
+Tipos de condição:
+
+IF - Condição Simples
+
+ELSE - 
 
 	
 
