@@ -5,17 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paises</title>
     <style>
+        *{
+            margin: 0px 0px 10px 0px;
+            padding: 0px;
+        }
+        
         body{
             background-image: linear-gradient(to right,  rgba(17, 103, 109, 0.973) , rgba(140, 16, 189, 0.76));
             font-size: 2em;
             color: white;
             font-weight: 700;
+            
         }
+        input#botao{
+            width: 300px;
+            height: 35px;
+            font-size: 0.6em;
+        }
+        input#pais{
+            width: 300px;
+            height: 30px;
+            
+        }
+       
     </style>
 </head>
 <body>
-    Digite o nome do seu Pais: <input type="text" name="pais" id="pais"> 
-    <input type="button" value="Verificar" onclick="calcular()">
+    <p>Digite o nome do seu Pais</p> <input type="text" name="pais" id="pais"> <br>
+    <input id="botao" type="button" value="Verificar" onclick="calcular()">
     <div id="res">
 
     </div>
