@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right,  rgba(17, 103, 109, 0.973) , rgba(140, 16, 189, 0.76));
+            font-size: 2em;
+            color: white;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    Digite o nome do seu Pais: <input type="text" name="pais" id="pais"> 
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular(){
+            var p = window.document.querySelector('input#pais')
+            var res = window.document.querySelector('div#res')
+            var p = pais.value
+        if( p!= 'Brasil'){  
+        res.innerHTML = `<p>Você é <strong>Estrangeiro!<strong></p>`
+    }
+         else{
+        res.innerHTML = `<p>Você é <strong>Brasileiro!<strong></p>`      
+    }
+
+  }
+
+    </script>
+</body>
+</html>
