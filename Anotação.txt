@@ -133,7 +133,16 @@ IF - Condição Simples
 ELSE - Condição Composta
 
 Condição Aninhada	
-Condição Multiplas
+
+Condição Múltiplas: 
+switch(expressão){
+      break	
+ case valor1:
+      break  	
+ case valor2:
+       break	
+ default:
+}		
 
 
 Anotação de Comandos:
