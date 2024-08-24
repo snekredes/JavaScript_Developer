@@ -133,7 +133,7 @@ IF - Condição Simples
 ELSE - Condição Composta
 
 Condição Aninhada	
-
+Condição Multiplas
 
 
 Anotação de Comandos:
