@@ -2,21 +2,35 @@
 
 body{
     background-color: rgb(46, 46, 219);
-    font-size: 1.5em;
-    font-weight: 900;
+    
      
 }
 header{
     color: white;
     text-align: center;
+    font-size: 1.7em;
+    font-weight: 900;
 }
 section{
     background-color: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 900px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+    
+}
+div{
+    font-size: 1.3em;
+}
+
+section  p{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+input#botao{
+    width: 100px;
+    height: 30px;
 }
 
 footer{
