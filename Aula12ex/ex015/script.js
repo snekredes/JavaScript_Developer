@@ -13,7 +13,6 @@ function verificar(){
         img.setAttribute('id' ,'foto')
         if (fsex[0].checked){
             genero = 'Homem'
-
             if(idade>=0 && idade<12){
             // criança
             img.setAttribute('src' , 'criancah.png')
@@ -30,8 +29,7 @@ function verificar(){
 
         }else if(fsex[1].checked){
             genero = 'Mulher'
-           
-            if(idade>=0 && idade<12){
+               if(idade>=0 && idade<12){
                 // criança
                 img.setAttribute('src' , 'criancam.png')
     
