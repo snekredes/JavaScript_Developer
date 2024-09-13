@@ -132,6 +132,8 @@ IF - Condição Simples
 
 ELSE - Condição Composta
 
+While - Estrutura de Repetição
+
 Condição Aninhada	
 
 Condição Múltiplas: 
