@@ -21,8 +21,6 @@ while(c<=99){
 
 
 
-
-
 /*
 console.log('Tudo bem!')
 console.log('Tudo bem!')
