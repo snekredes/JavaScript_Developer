@@ -135,19 +135,28 @@ ELSE - Condição Composta
 
 Estrutura de Repetição:
 
-While - Estrutura de Repetição com teste lógico no inicio
+WHILE - Estrutura de Repetição com teste lógico no inicio
 
 wile(condicao){
 
 
 } 
 
-do - Estutura de Repetição com teste lógico no final
+DO - Estutura de Repetição com teste lógico no final
 
 do{
 
 
 } while(condicao)
+
+
+FOR - 
+
+var c = 1 
+for( c=1;c<=25;c++){
+    console.log(`Passo${c}`)
+
+}
 
 
 
