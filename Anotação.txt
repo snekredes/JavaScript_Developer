@@ -132,7 +132,20 @@ IF - Condição Simples
 
 ELSE - Condição Composta
 
-While - Estrutura de Repetição
+While - Estrutura de Repetição com teste lógico no inicio
+
+wile(condicao){
+
+
+} 
+
+do - Estutura de Repetição com teste lógico no final
+
+do{
+
+
+} while(condicao)
+
 
 Condição Aninhada	
 
