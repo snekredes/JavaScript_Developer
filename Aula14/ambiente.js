@@ -1,7 +1,7 @@
 
 console.log('Vai começar ....')
-for(c=1;c<=10;c++){
-    console.log(c)
+for(c=1;c<=50;c++){
+    console.log(`Passo até ${c}`)
 
 }
 console.log('FIM!')
