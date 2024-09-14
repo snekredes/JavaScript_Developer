@@ -150,7 +150,7 @@ do{
 } while(condicao)
 
 
-FOR - 
+FOR - Estrutura de Repetição com teste lógico
 
 var c = 1 
 for( c=1;c<=25;c++){
