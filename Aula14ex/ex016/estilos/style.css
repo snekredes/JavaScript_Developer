@@ -18,6 +18,13 @@ section{
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
 }
+input#botao{
+    width: 80px;
+    height: 30px;
+}
+input#botao:hover{
+    background-color: aqua;
+}
 
 footer{
     text-align: center;
