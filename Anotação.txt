@@ -115,6 +115,36 @@ n=n**2 	n**=2
 n=n%5 	n%=5	
 
 
+
+Variável composta
+
+ex: let num = [5,8,9]
+    num[3]=7   -> acrescenta valor na ordem
+    num.push(10) -> acrescenta valor no última ordem
+    num.length -> seria para ver o comprimento no elemento.
+    num.sort() -> ordena em ordem crescente
+
+
+exercício:
+
+metodo padrão
+
+let valores = [7,5,1,6,9,8,3]
+valores.sort()
+for(let pos=0; pos < valores.length; pos++){
+    console.log(`A posição ${pos} tem o valor ${valores[pos]} `)
+}		
+	
+
+Método simplificado
+
+let valores = [7,5,1,6,9,8,3]
+valores.sort()
+for( let pos in valores){
+	console.log(`A posição ${pos} tem o valor ${valores[pos]})
+}
+
+
 Incremento:
 
 var x= 10
