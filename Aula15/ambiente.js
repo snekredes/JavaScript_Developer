@@ -4,7 +4,7 @@ num.sort()
 console.log(num)
 console.log(`O vetor tem ${num.length} posições!`)
 console.log(`Nosso vetor seria ${num[0]}`)
-let pos= num.indexOf(10)
+let pos= num.indexOf(7)
 if( pos == -1){
     console.log(`O valor não foi encontrado!`)
 
