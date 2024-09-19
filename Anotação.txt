@@ -123,6 +123,7 @@ ex: let num = [5,8,9]
     num.push(10) -> acrescenta valor no última ordem
     num.length -> seria para ver o comprimento no elemento.
     num.sort() -> ordena em ordem crescente
+    num.indexOf(7) -> busca valores	
 
 
 exercício:
