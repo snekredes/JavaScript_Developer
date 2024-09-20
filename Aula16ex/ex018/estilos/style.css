@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(46, 46, 219);
+    background-image: linear-gradient( to right, rgb(70, 129, 255), rgb(20, 12, 26) ,rgba(0, 0, 0, 0.815) , rgb(255, 30, 0));
     font-size: 1.5em;
     font-weight: 900;
      
