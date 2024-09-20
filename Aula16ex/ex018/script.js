@@ -27,6 +27,7 @@
       let item = document.createElement('option')
       item.text = `Valor ${num.value} adicionado.`
       flista.appendChild(item)
+      res.innerHTML=''
       
 
     }else{
@@ -36,6 +37,31 @@
     num.focus()
 }
 
+function finalizar(){
+    if(valores.length == 0){
+        window.alert('Adicione valores ante de finalizar!')
+
+    }else {
+        let total = valores.length
+        let maior = valores[0]
+        let menor = valores[0]
+        for(let pos in valores) { 
+            if( valores[pos] > maior)
+                maior = valores[pos]    
+            if(valores[pos] < menor)
+                menor = valores [pos]
+
+        }   
+        res.innerHTML =''
+        res.innerHTML +=`<p> Ao todo, temos ${total} números cadastrados. </p>`
+        res.innerHTML +=`<p> O maior valor informado foi ${maior}.</p>`
+        res.innerHTML += `<p> O menor valor informado foi ${menor}.</p>`
+   
+    }
+
+
+
+}
 
 
 
