@@ -4,7 +4,7 @@
   let valores = []
 
   function isNumero(n){
-    if( Number(n) >= 1 && Number(n) <=100){
+    if( Number(n) >= 1 && Number(n) <=200){
         return true
     }else{
         return false
